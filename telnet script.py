@@ -18,6 +18,8 @@ tn.write(b"devnet\n")
 tn.write(b"conf t\n")
 tn.write(b"interface loopback 1\n")
 tn.write(b"ip address 7.7.7.7 255.255.255.255 \n")
+tn.write(b"interface loopback 2\n")
+tn.write(b"ip address 6.6.6.6 255.255.255.255 \n")
 tn.write(b" end \n")
 tn.write(b"exit\n")
 
