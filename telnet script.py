@@ -1,6 +1,8 @@
+
+# the below two libraries are imported into pyth
 import getpass
 import telnetlib
-
+# the below is the  ip address of  R1
 HOST = "192.168.122.71"
 user = input("Enter your telnet username: ")
 password = getpass.getpass()
@@ -12,7 +14,7 @@ tn.write(user.encode('ascii') + b"\n")
 if password:
     tn.read_until(b"Password: ")
     tn.write(password.encode('ascii') + b"\n")
-
+# the below commands are to carry out CLI commands
 tn.write(b"enable\n")
 tn.write(b"devnet\n")
 tn.write(b"conf t\n")
