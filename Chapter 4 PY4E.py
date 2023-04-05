@@ -1,6 +1,7 @@
 def thing ()
     print ("hello")
     print ("fun")
+
 thing ()
-print ("zip")
+print("zip")
 thing ()
