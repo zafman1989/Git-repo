@@ -27,7 +27,7 @@ print (networks)
  #subnetmask: 255.255.255.0
  #broadcast address: 192.168.1.255
 
-# NOTE that intergers that are wrapped in quotation mark are strings and not quotes
+# NOTE that intergers that are wrapped in quotation mark are strings and not intergers
 
 
 """ the below will not work as the vaule for the version is a string and we are doing a conditonal check on a 
